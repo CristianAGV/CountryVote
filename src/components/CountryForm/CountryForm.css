@@ -1,0 +1,12 @@
+.countryForm-container {
+  padding: 20px 12px 40px 12px;
+  background: #ffff;
+  border-radius: 20px;
+  box-shadow: 0px 4px 7px 0px rgba(219, 219, 219, 0.15);
+}
+
+.countryForm-title {
+  margin: 0 0 10px 0;
+  font-size: 0.8rem;
+  color: rgba(21, 23, 42, 1);
+}

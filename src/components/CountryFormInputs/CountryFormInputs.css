@@ -1,0 +1,42 @@
+.countryFormInputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr auto;
+  gap: 10px;
+}
+
+.countryFormInputs > div {
+  position: relative;
+}
+
+.countryFormInputs input.error,
+.countryFormInputs select.error {
+  border-color: rgba(255, 82, 69, 1);
+}
+
+select.placeholder-selected {
+  color: rgba(138, 140, 144, 1);
+}
+
+.countryFormInputs select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+
+.countryFormInputs p.error {
+  position: absolute;
+  margin: 10px 0 0 0;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: rgba(255, 82, 69, 1);
+}
+
+.countryFormInputs img {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+}

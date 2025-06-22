@@ -1,0 +1,13 @@
+:root {
+  font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px 0;
+  box-sizing: border-box;
+  display: grid;
+  place-content: center;
+  background: #f4f4f4;
+}

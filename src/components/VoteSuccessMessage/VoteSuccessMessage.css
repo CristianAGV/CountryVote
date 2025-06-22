@@ -1,0 +1,14 @@
+.voteSuccessMessage {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 8px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 16px;
+}
+
+.voteSuccessMessage p {
+  margin: 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
