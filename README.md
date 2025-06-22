@@ -42,6 +42,16 @@ Or
 yarn dev
 ```
 
+This will start the development server. You should see output similar to:
+
+```bash
+ VITE vX.X.X  ready in XXX ms
+
+  ➜  Local:   http://localhost:5173/
+```
+
+Visit http://localhost:5173/ in your browser to see the app.
+
 ## 📘 Tech stack
 
 - React 19
